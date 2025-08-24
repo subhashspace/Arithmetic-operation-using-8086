@@ -55,17 +55,27 @@ END
 
 #### Output Table
 
+______________________________________________________
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
+|     1200                |         1204             |
+|     1201                |         1205             |
+|     1202                |                          |
+|     1203                |                          |
+|_________________________|__________________________|
+
 
 #### Manual Calculations
 
-(Add your calculation here)
+<img width="1600" height="1442" alt="image" src="https://github.com/user-attachments/assets/9c3f5628-7a55-43ea-a857-7c6b81828621" />
+
 
 ---
 
 ## OUTPUT IMAGE FROM MASM SOFTWARE
+
+<img width="1920" height="1200" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/04b53cf6-409b-433b-8bcf-86cd340d68b9" />
+
 
 ## 2. SUBTRACTION
 
