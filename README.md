@@ -93,13 +93,35 @@ ______________________________________________________
 
 #### Program
 
+```asm
+CODE SEGMENT
+ASSUME CS:CODE,DS:CODE
+ORG 1000H
+MOV SI,1200H
+MOV AX,[SI]
+MOV BX,[SI+02H]
+MOV CL,00H
+SUB AX,BX
+JNC L1
+INC CL
+L1:
+MOV [SI+04H],AX
+MOV [SI+06H],CL
+MOV AH,4CH
+INT 21H
+CODE ENDS
+END
+```
 
 
 #### Output Table
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
+|        1200             |                          |
+|        1201             |           1204           |
+|        1202             |           1205           |
+|        1203             |                          |
 
 #### Manual Calculations
 
@@ -109,6 +131,11 @@ ______________________________________________________
 
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
+
+
+<img width="1920" height="1200" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/afc98933-0c00-4272-967f-f043233e35d3" />
+
+
 
 ## 3. MULTIPLICATION
 
@@ -131,8 +158,7 @@ ______________________________________________________
 CODE SEGMENT
 ASSUME CS: CODE, DS: CODE
 ORG 1000H
-MOV SI,2000H
-MOV DX,0000H
+MOV SI,1200H
 MOV AX,[SI]
 MOV BX,[SI+02H]
 MUL BX
@@ -148,7 +174,10 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
+|         1200            |           1204           |
+|         1201            |           1205           |
+|         1202            |           1206           |
+|         1203            |           1207           |
 
 #### Manual Calculations
 
@@ -157,6 +186,11 @@ END
 ---
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
+
+
+<img width="1920" height="1200" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/37ea2310-b82b-448c-bdeb-0f5751ad281c" />
+
+
 
 ## 4. DIVISION
 
@@ -193,7 +227,10 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
+|         1200            |           1204           |
+|         1201            |           1205           |
+|         1202            |           1206           |
+|         1203            |           1207           |
 
 #### Manual Calculations
 
@@ -201,6 +238,10 @@ END
 
 ---
 ## OUTPUT FROM MASM SOFTWARE
+
+
+<img width="1920" height="1200" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/4f15918b-3417-4502-bbee-c4d3c78eb1a6" />
+
 
 
 
