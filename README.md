@@ -28,7 +28,7 @@ To write and execute Assembly Language Programs to perform arithmetic operations
 
 
 ## FLOW CHART
-<img width="707" height="1024" alt="image" src="https://github.com/user-attachments/assets/b5a7062d-e294-47cd-9683-a40de25e82de" />
+<img width="500" height="550" alt="image" src="https://github.com/user-attachments/assets/b5a7062d-e294-47cd-9683-a40de25e82de" />
 
 
 #### Program
@@ -37,7 +37,7 @@ To write and execute Assembly Language Programs to perform arithmetic operations
 CODE SEGMENT
 ASSUME CS: CODE, DS: CODE
 ORG 1000H
-MOV SI,2000H
+MOV SI,1200H
 MOV CL,00H
 MOV AX,[SI]
 MOV BX,[SI+02H]
@@ -66,7 +66,8 @@ ______________________________________________________
 
 #### Manual Calculations
 
-![WhatsApp Image 2025-09-02 at 19 22 44](https://github.com/user-attachments/assets/91eeca13-c114-4c9e-811f-17368cb3f635)
+<img width="450" height="500" alt="Screenshot 2025-09-02 200337" src="https://github.com/user-attachments/assets/2f93e23f-e6a6-4bf3-b031-f2554d28a1c2" />
+
 
 
 
@@ -74,7 +75,7 @@ ______________________________________________________
 
 ## OUTPUT IMAGE FROM MASM SOFTWARE
 
-<img width="1920" height="1200" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/04b53cf6-409b-433b-8bcf-86cd340d68b9" />
+<img width="550" height="600" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/04b53cf6-409b-433b-8bcf-86cd340d68b9" />
 
 
 ## 2. SUBTRACTION
@@ -89,7 +90,7 @@ ______________________________________________________
 
 ## FLOWCHART
 
-<img width="578" height="797" alt="image" src="https://github.com/user-attachments/assets/564c3c7a-33ce-4a1c-8920-beb5c24b9b47" />
+<img width="500" height="550" alt="image" src="https://github.com/user-attachments/assets/564c3c7a-33ce-4a1c-8920-beb5c24b9b47" />
 
 
 #### Program
@@ -126,7 +127,8 @@ END
 
 #### Manual Calculations
 
-![WhatsApp Image 2025-09-02 at 19 22 44 (1)](https://github.com/user-attachments/assets/2a0e11e9-8fd5-4730-9856-5bdb3142e83b)
+<img width="450" height="500" alt="Screenshot 2025-09-02 200702" src="https://github.com/user-attachments/assets/b27ebc9d-4d70-4750-8d0f-0e87bffe8b1b" />
+
 
 
 ---
@@ -135,7 +137,7 @@ END
 ## OUTPUT SCREEN FROM MASM SOFTWARE
 
 
-<img width="1920" height="1200" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/afc98933-0c00-4272-967f-f043233e35d3" />
+<img width="550" height="600" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/afc98933-0c00-4272-967f-f043233e35d3" />
 
 
 
@@ -150,7 +152,7 @@ END
 
 ##FLOWCHART
 
-<img width="569" height="906" alt="image" src="https://github.com/user-attachments/assets/88be88ff-2896-4a88-b73d-84ccffd2fcf9" />
+<img width="500" height="550" alt="image" src="https://github.com/user-attachments/assets/88be88ff-2896-4a88-b73d-84ccffd2fcf9" />
 
 
 
@@ -183,7 +185,8 @@ END
 
 #### Manual Calculations
 
-![WhatsApp Image 2025-09-02 at 19 22 44 (2)](https://github.com/user-attachments/assets/57360b3e-e125-4d27-84f7-6469ba12c9e0)
+<img width="450" height="500" alt="Screenshot 2025-09-02 200950" src="https://github.com/user-attachments/assets/bfbb1dc2-0d74-4c06-bc59-02e19a53ea28" />
+
 
 
 ---
@@ -191,7 +194,7 @@ END
 ## OUTPUT SCREEN FROM MASM SOFTWARE
 
 
-<img width="1920" height="1200" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/37ea2310-b82b-448c-bdeb-0f5751ad281c" />
+<img width="550" height="600" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/37ea2310-b82b-448c-bdeb-0f5751ad281c" />
 
 
 
@@ -204,7 +207,7 @@ END
 3. Store result.
 
    ## FLOWCHART
-<img width="1065" height="802" alt="image" src="https://github.com/user-attachments/assets/25b4a483-0d42-494b-8639-1af3ea17191b" />
+<img width="500" height="550" alt="image" src="https://github.com/user-attachments/assets/25b4a483-0d42-494b-8639-1af3ea17191b" />
 
 
 #### Program
@@ -213,7 +216,7 @@ END
 CODE SEGMENT
 ASSUME CS: CODE, DS: CODE
 ORG 1000H
-MOV SI,2000H
+MOV SI,1200H
 MOV DX,0000H
 MOV AX,[SI]
 MOV BX,[SI+02H]
@@ -237,14 +240,15 @@ END
 
 #### Manual Calculations
 
-![WhatsApp Image 2025-09-02 at 19 22 44 (3)](https://github.com/user-attachments/assets/bcb34fc3-7bf0-457d-87e9-cbf65fa166b5)
+<img width="450" height="500" alt="image" src="https://github.com/user-attachments/assets/135e8a56-e605-4e82-a4c9-777c536105c0" />
+
 
 
 ---
 ## OUTPUT FROM MASM SOFTWARE
 
 
-<img width="1920" height="1200" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/4f15918b-3417-4502-bbee-c4d3c78eb1a6" />
+<img width="550" height="600" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/4f15918b-3417-4502-bbee-c4d3c78eb1a6" />
 
 
 
